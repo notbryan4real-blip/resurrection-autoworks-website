@@ -1,21 +1,23 @@
 # Resurrection Autoworks Website Concept
 
-A mobile-first static website concept for Resurrection Autoworks Mobile Detail and Window Tint.
+Responsive, multi-view static website concept for owner review.
 
-## Current status
-- This is an **unapproved concept preview**, not a verified official business website.
-- The site is a single static `index.html` file and can be hosted on Cloudflare Pages.
-- No form submissions, bookings, payments, analytics, or AI integrations are configured.
-- Business contact details, service area, opening hours, exact services, packages, prices, warranties, and claims must be verified with the owner before launch.
-- No customer information is collected by this draft.
+## Features
+- Mobile-friendly dark automotive visual system
+- Hero image and service-card photography
+- Hash-based navigation to Home, Services, Detailing, Window Tint, Ceramic & Paint Care, Gallery, FAQ, and Quote Demo views
+- Tap-to-expand gallery lightbox
+- Service choice buttons that carry selections into the quote preview
+- Interactive FAQ accordions
+- Demo quote form with a local preview only (no network submission, booking, payment, or data storage)
+- GitHub Pages static hosting
 
-## Deploy on Cloudflare Pages
-1. Open Cloudflare Dashboard → Workers & Pages.
-2. Create an application → Pages → Connect to Git.
-3. Select `notbryan4real-blip/resurrection-autoworks-website`.
-4. For a plain static HTML site, choose no framework; leave the build command blank and use `/` as the build output directory.
-5. Deploy, then verify the generated `pages.dev` URL on a phone.
-6. Keep the preview notice until the business owner approves the content and the contact/booking flow is implemented and tested.
+## Preview
+https://notbryan4real-blip.github.io/resurrection-autoworks-website/
 
-## Files
-- `index.html` — responsive single-page concept with services, process, FAQ, and owner setup reminders.
+## Important before production
+- This is a concept, not an owner-approved production site.
+- Stock images are illustrative only, not proof of completed customer jobs. Replace them with licensed/owner-approved images before production.
+- Confirm official business name, services, service area, legal tint guidance, policies, contact details, and rates with the owner.
+- The quote form intentionally does not send data. Connect an owner-approved, privacy-conscious lead delivery path before using it with customers.
+- Verify image rights and performance, then test all routes on mobile before launch.
